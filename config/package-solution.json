@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "SharePoint Maintenance Banner",
+    "id": "97e12fdd-158c-440d-b207-5606e89a1bfd",
+    "version": "1.3.4.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Jonathan R. Adcox",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": { "default": "Tenant-wide SharePoint maintenance and notification banner system." },
+      "longDescription": { "default": "SharePoint Maintenance Banner is a tenant-wide SPFx Application Customizer that displays centralized, list-driven notification banners above the SharePoint site header. It supports priority, scheduling, severity colors, dismissible notices, and linked detail pages." },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": ["Productivity", "Collaboration"]
+    },
+    "iconPath": "images/app-icon.png",
+    "webApiPermissionRequests": [
+      { "resource": "Microsoft Graph", "scope": "GroupMember.Read.All" }
+    ],
+    "features": [
+      {
+        "title": "SharePoint Maintenance Banner Application Extension",
+        "description": "Deploys the SharePoint Maintenance Banner custom action with ClientSideComponentId association.",
+        "id": "d8947174-de1e-4070-9c09-e58c56d4f545",
+        "version": "1.2.0.0",
+        "assets": {
+          "elementManifests": ["elements.xml", "ClientSideInstance.xml"]
+        }
+      }
+    ]
+  },
+  "paths": { "zippedPackage": "solution/sharepoint-maintenance-banner.sppkg" }
+}

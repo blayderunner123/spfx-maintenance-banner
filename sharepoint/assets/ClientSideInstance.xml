@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ClientSideComponentInstance
+    Title="MaintenanceBanner"
+    Location="ClientSideExtension.ApplicationCustomizer"
+    ComponentId="0f38c950-0d90-4c22-a365-b8c6f6bda2b3"
+    Properties="{}">
+  </ClientSideComponentInstance>
+</Elements>

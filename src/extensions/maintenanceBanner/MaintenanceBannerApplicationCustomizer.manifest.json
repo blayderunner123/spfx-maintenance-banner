@@ -1,0 +1,9 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-extension-manifest.schema.json",
+  "id": "0f38c950-0d90-4c22-a365-b8c6f6bda2b3",
+  "alias": "MaintenanceBannerApplicationCustomizer",
+  "componentType": "Extension",
+  "extensionType": "ApplicationCustomizer",
+  "version": "1.3.4",
+  "manifestVersion": 2
+}
